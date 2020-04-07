@@ -1,11 +1,21 @@
-<h1>Main Page</h1>
+<!DOCTYPE html>
+{% extends "html/base.html" %}
+{% block title%} Main Page {% endblock %}
 
-<!-- <a href="clientJob" class="btn btn-primary">Go to Google</a> -->
+{% block content %}
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"> 
+    <div class="container" id="text">
+        <h3>Welcome to new HiWork web page</h3>
+        <p>Please, be notified, the web page is being in progress stage.</p>
 
-<form action="clientJob">
-    <input type="submit" value="clientJob" />
-</form>
+        <h1>MAIN PAGE</h1>
+    
+        <form action="clientJob">
+            <input type="submit" value="clientJob" />
+        </form>
 
-<form action="devJob">
-    <input type="submit" value="devJob" />
-</form>
+        <form action="devJob">
+            <input type="submit" value="devJob" />
+        </form>
+    </div>
+{% endblock %}

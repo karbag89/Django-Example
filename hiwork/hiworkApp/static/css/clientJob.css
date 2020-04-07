@@ -1,0 +1,11 @@
+h1 {
+    color: yellow;
+    text-decoration: none;
+    font-weight: 500;
+    position:absolute;
+    left:50%;
+    top:50px;
+    margin-left:-375px; /* negative margin equal to half the width */
+    width:750px;
+    list-style:none;
+}

@@ -1,0 +1,58 @@
+.container-fluid .navbar-brand{
+    color: #3d00a0;
+    text-decoration: none;
+    font-weight: 500;
+    width: 106;
+    height: 30;
+    font-family: "Gotham SSm";
+}
+
+.container-fluid .search{
+    color: #3d00a0;
+    margin-top: 10px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* ul li {
+    text-align: center;
+    list-style: none;
+  }
+  
+  li {
+    text-align: center;
+  } */
+
+
+#bar {
+    position:absolute;
+    left:50%;
+    top:0;
+    margin-left:-375px; /* negative margin equal to half the width */
+    width:750px;
+    list-style:none;
+}
+
+#text {
+    position:absolute;
+    left:50%;
+    top:50px;
+    margin-left:-375px; /* negative margin equal to half the width */
+    width:750px;
+    list-style:none;
+}
+
+#nav {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--text-2);
+    text-align: left;
+    text-size-adjust: 100%;
+    font-family: "Gotham SSm";
+}
+
+.container-fluid:focus {
+    background: yellow;
+    color: blue;
+  }

@@ -39,21 +39,15 @@ def index(request):
 # #         return HttpResponseRedirect(reverse('hiworkApp:results', args=(question.id,)))
 
 
-# def results(request, question_id):
-#     question = get_object_or_404(Question, pk=question_id)
-#     return render(request, 'htmml/results.html', {'question': question})
-
 def main(request):
     return render(request, 'html/main.html')
 
 
 def clientJob(request):
-    template_name = 'html/index.html'
-    return HttpResponse("Client job application page")
+    return render(request, 'html/clientJob.html')
 
 
 def devJob(request):
-    return HttpResponse("Developer job application page")
-
-
-
+    # template_name = 'html/index.html'
+    # return HttpResponse("Developer job application page")
+    return render(request, 'html/devJob.html')
