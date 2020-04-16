@@ -1,2 +1,2 @@
-# hiwork_django
-Developing hiwork using Django
+# Django_Portfolio
+Developing Portfolio using Django
